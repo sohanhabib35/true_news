@@ -76,7 +76,7 @@ const setNewsCategory = (data, name) => {
     
              <div class="md:w-[75%]">
                 <h2 class="text-2xl text-bold">${element.title}</h2>
-                <p class="text-gray-400 mt-4">${element.details}</p>
+                <p class="text-gray-400 mt-4 truncate ..." >${element.details}</p>
                 <div class="flex items-center justify-between flex-wrap mt-16">
                         <div class="flex items-center justify-center gap-3">
                             <img width="40px" class="rounded-full"  src="${element.author.img}"  alt="">
