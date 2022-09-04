@@ -176,7 +176,7 @@ function setModal(element) {
 const blogSection = document.getElementById("blog-section");
 console.log(blogSection)
 
-const blogState = blogSection.addEventListener(onclick, blogSection.setAttribute("class", "font-bold"))
+const blogState = blogSection.addEventListener(onclick, blogSection.setAttribute("class", ""))
 
 
 
