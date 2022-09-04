@@ -7,18 +7,63 @@
     <title>TRUE NEWS - collect,fact check,varify, represent news.</title>
 
     <!-- favicon  -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
 
     <!-- google font  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="./styles/style.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    
     <!-- Tailwind CSS  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="./scripts/common.js" defer></script>
 
 </head>
-<body>
-    
+<body class="bg-gray-200">
+   <header>
+        <nav class="container mx-auto px-24">
+            <div class="flex justify-between">
+                <img width="300px" height="auto" src="./assets/logo/TRUE NEWS-logo-black.png" alt="" class="block">
+                <div>
+                    <ol class="flex justify-center align-center p-8 nav-left">
+                        <a href=""><li class="font-bold">Home</li></a>
+                        <a href=""><li id="blog-section">Blog</li></a>
+                        <li><img width="50px" src="./assets/avatar.jpg" alt="" class="rounded"></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="mt-16">
+                <div class="category flex items-center justify-between flex-wrap"></div>
+            </div>
+            <div class="mt-8">
+                <p id="news-counter" type="text" class="font-bold text-slate-900 px-4 py-3 rounded-md border-2 border-slate-300 bg-white w-full mx-auto "></p>
+            </div>
+        </nav>
+   </header>
+
+<div class="news-container container mx-auto px-24"></div>
 
 
+
+<div class="mt-16 text-center bg-white py-4">
+    <p class="text-slate-900">Copyright &copy; 2021 Reserved</p>
+</div>
+
+<input type="checkbox" id="my-modal-3" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box relative">
+    <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+    <div class="dynamic_modal">
+
+    </div>
+</div>
+
+
+  
 </body>
 </html>
